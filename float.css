@@ -1,0 +1,260 @@
+    /*Header start*/
+    
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Urbanist', sans-serif;
+    }
+    
+    .header-main {
+        height: 60px;
+        width: 100%;
+        background-color: rgb(42, 41, 38);
+        border-bottom: 1.3px solid rgb(130, 124, 104);
+        float: none;
+        margin: 0;
+    }
+    
+    #h2-home a {
+        text-decoration: none;
+        float: left;
+        margin-left: 80px;
+        margin-top: 17px;
+        color: rgb(168, 157, 138);
+    }
+    
+    .img {
+        height: 30px;
+        width: 55px;
+        float: left;
+    }
+    
+    #div-2 ul li {
+        list-style-type: none;
+        margin-right: 70px;
+        margin-top: 20px;
+        float: right;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    
+    #div-2 ul li a {
+        text-decoration: none;
+        color: rgb(168, 157, 138);
+    }
+    
+    #div-2 ul li a:hover {
+        color: rgb(251, 238, 214);
+    }
+    /*Header END*/
+    /*Clear div*/
+    
+    .div-clear {
+        clear: both;
+    }
+    /*Main Start*/
+    
+    .main-start {
+        max-width: 1366px;
+        margin: auto;
+    }
+    
+    .search-manu {
+        width: 100%;
+        height: 50px;
+        margin: 15px;
+        border: 1px solid rgb(130, 124, 104);
+        border-radius: 45px;
+        background-color: rgb(42, 41, 38);
+    }
+    
+    .search-icon {
+        width: 35px;
+        height: 35px;
+        color: aliceblue;
+        margin: 8px;
+        float: left;
+    }
+    
+    #search-font {
+        max-width: 40%;
+        height: 40px;
+        margin: 5px 5px 6px 0px;
+        border: none;
+        background-color: rgb(42, 41, 38);
+        font-size: 20px;
+    }
+    
+    #sentence {
+        height: 38px;
+        width: 130px;
+        border: none;
+        font-size: 16px;
+        margin: 0px 10px 0px 10px;
+        border-radius: 20px;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .option {
+        height: 100px;
+        width: 200px;
+        padding: 5px;
+        font-size: 20px;
+        position: absolute;
+    }
+    
+    .Range-name {
+        float: right;
+        margin: 15px 5px 10px 15px;
+        font-size: 16px;
+    }
+    
+    #font-size-range {
+        width: 300px;
+        height: 30px;
+        float: right;
+        margin: 10px 20px 10px 15px;
+    }
+    
+    .reset {
+        width: 38px;
+        height: 38px;
+        margin: 6px 7px 6px 15px;
+        float: right;
+        cursor: pointer;
+        background-color: rgb(42, 41, 38);
+        font-size: 25px;
+        border: none;
+        border-radius: 45px;
+    }
+    
+    .reset:hover {
+        background-color: rgb(68, 67, 62);
+        ;
+    }
+    
+    .search-manu2 {
+        width: 100%;
+        height: 50px;
+        margin: 15px;
+    }
+    
+    .categories {
+        border: 1px solid;
+    }
+    
+    #checkbox {
+        width: 16px;
+        height: 16px;
+        margin: 7px 8px 3px 20px;
+    }
+    /*main font manu start*/
+    
+    .font-manu {
+        float: left;
+        width: 100%;
+        height: 3000px;
+        border: 1px solid rgba(130, 124, 104, 0.167);
+        border-radius: 15px;
+    }
+    
+    .div-header {
+        height: 20px;
+        width: 100%;
+        text-align: left;
+        margin: 10px 30px 0px 30px;
+    }
+    /*box model*/
+    
+    .box-model {
+        border: 1px solid rgb(130, 124, 104);
+        border-radius: 10px;
+        height: 280px;
+        width: 405px;
+        margin: 12px;
+        float: left;
+        padding: 12px;
+    }
+    
+    .box-model:hover {
+        background-color: rgb(42, 41, 38);
+        cursor: pointer;
+    }
+    
+    .box-model h4 {
+        float: left;
+    }
+    
+    .box-model h5 {}
+    
+    .box-model h6 {
+        float: right;
+    }
+    
+    .box-model p {
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    /*Main END*/
+    /*Footer Start*/
+    
+    .footer-div {
+        height: 320px;
+        width: 100%;
+        background-color: rgb(42, 41, 38);
+        border-bottom: 1.3px solid rgb(130, 124, 104);
+        margin: 0;
+    }
+    
+    .footer-div2 {
+        height: 100px;
+        width: 100%;
+        background-color: rgb(42, 41, 38);
+        margin: 0;
+    }
+    
+    .footer-h2 {
+        padding: 40px 0px 50px 0px;
+        color: rgb(232, 220, 198);
+    }
+    
+    .footer-p {
+        height: 200px;
+        width: 400px;
+        color: rgb(232, 220, 198);
+        float: left;
+    }
+    
+    .footer-right {
+        float: right;
+        margin-left: 150px;
+    }
+    
+    .footer-right ul li {
+        list-style-type: none;
+    }
+    
+    .footer-right ul li a {
+        text-decoration: none;
+        color: rgb(130, 149, 172);
+    }
+    
+    .footer-img {
+        height: 40px;
+        width: 40px;
+        padding: 30px 0px 10px 0px;
+        float: left;
+    }
+    
+    .footer-link {
+        float: right;
+        padding: 40px 0px 40px 0px;
+    }
+    
+    .footer-link a {
+        text-decoration: none;
+        color: rgb(130, 149, 172);
+        padding-right: 84px;
+    }
+    /*Footer END*/
